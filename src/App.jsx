@@ -8,10 +8,10 @@ function App() {
 
   return (
     <div className="h-screen w-screen overflow-x-hidden relative">
-      <div className="container mx-auto px-5 lg:px-0 lg:py-7 lg:mb-auto">
+      <div className="container mx-auto px-5 lg:px-0 py-10 lg:py-7 lg:mb-auto">
         <img src="./img/logo.png" alt="" className="max-h-[100px]" />
         <div className="text-container lg:max-w-[60%]">
-          <h1 className="title font-heading text-[64px] lg:text-[7vw] leading-[1.5] my-4">
+          <h1 className="title font-heading text-[48px] lg:text-[7vw] leading-[1.5] my-4">
             DoRe<span className="color-org ">Mee</span>
           </h1>
           <div className="soundcloud-embed mt-8 mb-10 h-[70%]">
@@ -21,10 +21,10 @@ function App() {
               scrolling="no"
               frameborder="no"
               allow="autoplay"
-              src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/122899544&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
+              src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1454076202&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
             ></iframe>
           </div>
-          <p className="font-para text-base lg:text-md leading-[1.5] color-gra mt-6">
+          <p className="font-para text-sm lg:text-base lg:text-md leading-[1.5] color-gra mt-6">
             Thiên nhiên có bảy nốt nhạc thì Mee là nốt đáng sợ nhất, vì Mee
             quyết định màu sắc của harmony. Kể cả khi giữ nguyên tất cả các
             thành tố khác, chỉ cần chuyển Mee trưởng sang giáng là bài hát có
@@ -32,10 +32,10 @@ function App() {
             dường như có thể xuất hiện và toả sáng ở rất nhiều hoà âm khác nhau
             mà không theo một quy luật nào.
           </p>
-          <p className="font-para text-base lg:text-md leading-[1.5] color-gra mt-6">
+          <p className="font-para text-sm lg:text-base lg:text-md leading-[1.5] color-gra mt-6">
             But somehow, Mee is my favorite note ^^
           </p>
-          <p className="font-para text-base lg:text-md leading-[1.5] color-gra mt-6">
+          <p className="font-para text-sm lg:text-base lg:text-md leading-[1.5] color-gra mt-6">
             Đây là một track nhạc được lấy cảm hứng và sử dụng rất nhiều nốt{" "}
             <span className="color-org font-bold">Mee</span>.
           </p>
