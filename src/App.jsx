@@ -3,6 +3,11 @@ import reactLogo from "./assets/react.svg";
 import "./App.css";
 import { Animated } from "react-animated-css";
 import "animate.css";
+import {
+  WaveformVisualizer,
+  WaveformVisualizerTheme,
+} from "react-audio-visualizers";
+
 function App() {
   const [count, setCount] = useState(0);
 
@@ -14,14 +19,14 @@ function App() {
           <h1 className="title font-heading text-[48px] lg:text-[7vw] leading-[1.5] my-4">
             DoRe<span className="color-org ">Mee</span>
           </h1>
-          <div className="soundcloud-embed mt-8 mb-10 h-[70%]">
+          <div className="soundcloud-embed mt-8 mb-10">
             <iframe
               width="100%"
-              height="166"
+              height="20"
               scrolling="no"
               frameborder="no"
               allow="autoplay"
-              src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1454076202&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
+              src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1454076202&color=%23ff5500&inverse=false&auto_play=true&show_user=true"
             ></iframe>
           </div>
           <p className="font-para text-sm lg:text-base lg:text-md leading-[1.5] color-gra mt-6">
@@ -62,7 +67,7 @@ function App() {
 
         {/* Guitar */}
         <svg
-          className="w-[100vw] lg:w-[50vw] absolute bottom-[-200px] lg:bottom-0 right-0"
+          className="w-[100vw] lg:w-[50vw] absolute bottom-[0px] lg:bottom-0 right-0"
           viewBox="0 0 1087 439"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
