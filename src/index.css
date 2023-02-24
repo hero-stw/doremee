@@ -43,16 +43,18 @@ html {
   font-family: var(--font-para);
 }
 .path {
-  stroke-dasharray: 1000;
-  stroke-dashoffset: 1000;
-  animation: dash 15s linear infinite;
+  stroke-dasharray: 0 1000;
+  animation: dash 3s linear 1;
+  animation-fill-mode: forwards;
 }
 
 @keyframes dash {
   from {
-    stroke-dashoffset: 1000;
+    stroke-dasharray: 0 1000; /* zero-length stroke, 
+                                 1000-length gap */
   }
   to {
-    stroke-dashoffset: 0;
+    stroke-dasharray: 1000 0;/* 1000-length stroke, 
+                                 zero-length gap */
   }
 }
