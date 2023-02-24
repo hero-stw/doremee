@@ -19,7 +19,7 @@ function App() {
           <h1 className="title font-heading text-[48px] lg:text-[7vw] leading-[1.5] my-4">
             DoRe<span className="color-org ">Mee</span>
           </h1>
-          <div className="soundcloud-embed mt-8 mb-10">
+          <div className="soundcloud-embed mt-6 mb-6">
             <iframe
               width="100%"
               height="20"
@@ -28,8 +28,11 @@ function App() {
               allow="autoplay"
               src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1454076202&color=%23ff5500&inverse=false&auto_play=true&show_user=true"
             ></iframe>
+            <p className="pt-4 text-[11px] lg:text-xs italic color-gra opacity-60">
+              Hay hơn khi thưởng thức cùng tai nghe hoặc loa có bass
+            </p>
           </div>
-          <p className="font-para text-sm lg:text-base lg:text-md leading-[1.5] color-gra mt-6">
+          <p className="font-para text-[13px] lg:text-base lg:text-md leading-[1.5] color-gra mt-6">
             Thiên nhiên có bảy nốt nhạc thì Mee là nốt đáng sợ nhất, vì Mee
             quyết định màu sắc của harmony. Kể cả khi giữ nguyên tất cả các
             thành tố khác, chỉ cần chuyển Mee trưởng sang giáng là bài hát có
@@ -37,10 +40,10 @@ function App() {
             dường như có thể xuất hiện và toả sáng ở rất nhiều hoà âm khác nhau
             mà không theo một quy luật nào.
           </p>
-          <p className="font-para text-sm lg:text-base lg:text-md leading-[1.5] color-gra mt-6">
+          <p className="font-para text-[13px] lg:text-base lg:text-md leading-[1.5] color-gra mt-6">
             But somehow, Mee is my favorite note ^^
           </p>
-          <p className="font-para text-sm lg:text-base lg:text-md leading-[1.5] color-gra mt-6">
+          <p className="font-para text-[13px] lg:text-base lg:text-md leading-[1.5] color-gra mt-6">
             Đây là một track nhạc được lấy cảm hứng và sử dụng rất nhiều nốt{" "}
             <span className="color-org font-bold">Mee</span>.
           </p>
