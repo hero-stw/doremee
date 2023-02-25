@@ -8,14 +8,14 @@ function App() {
   const [count, setCount] = useState(0);
   return (
     <div className="h-screen w-screen overflow-x-hidden relative">
-      <div className="container mx-auto px-5 lg:px-0 pt-10 lg:py-7 lg:mb-auto">
+      <div className="container mx-auto px-5 lg:px-0 pt-6 lg:py-7 lg:mb-auto">
         <img
           src="./img/logo.png"
           alt=""
           className=" max-h-[90px] lg:max-h-[100px]"
         />
         <div className="text-container lg:max-w-[60%]">
-          <h1 className="title font-heading text-[48px] lg:text-[7vw] leading-[1.5] mt-4 mb-8">
+          <h1 className="title font-heading text-[48px] lg:text-[7vw] leading-[1.5] mt-4 mb-4">
             DoRe<span className="color-org ">Mee</span>
           </h1>
           <div className="soundcloud-embed mt-6 mb-6">
@@ -31,7 +31,7 @@ function App() {
               Hay hơn khi thưởng thức cùng tai nghe hoặc loa có bass
             </p>
           </div>
-          <p className="font-para text-[12px] lg:text-base lg:text-md leading-[1.5] color-gra mt-10">
+          <p className="font-para text-[12px] lg:text-base lg:text-md leading-[1.5] color-gra mt-6">
             Thiên nhiên có bảy nốt nhạc thì Mee là nốt ... đáng sợ nhất, vì Mee
             quyết định màu sắc của harmony. Dù cho giữ nguyên tất cả các thành
             tố khác, chỉ cần đổi Mee trưởng sang giáng là hoà âm có nét buồn
