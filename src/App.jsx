@@ -32,12 +32,12 @@ function App() {
             </p>
           </div>
           <p className="font-para text-[12px] lg:text-base lg:text-md leading-[1.5] color-gra mt-10">
-            Thiên nhiên có bảy nốt nhạc thì Mee là nốt đáng sợ nhất, vì Mee
-            quyết định màu sắc của harmony. Kể cả khi giữ nguyên tất cả các
-            thành tố khác, chỉ cần chuyển Mee trưởng sang giáng là bài hát có
-            nét buồn ngay. Bên cạnh đó, Mee cũng là nốt khó lường nhất. Mee
-            dường như có thể xuất hiện và toả sáng ở rất nhiều hoà âm khác nhau
-            mà không theo một quy luật nào.
+            Thiên nhiên có bảy nốt nhạc thì Mee là nốt ... đáng sợ nhất, vì Mee
+            quyết định màu sắc của harmony. Dù cho giữ nguyên tất cả các thành
+            tố khác, chỉ cần đổi Mee trưởng sang giáng là hoà âm có nét buồn
+            ngay. Đã thế, nốt Mee cũng rất ... khó lường. Mee dường như có thể
+            xuất hiện và toả sáng ở rất nhiều hợp âm khác nhau mà không theo một
+            quy luật nào.
           </p>
           <p className="font-para text-[12px] lg:text-base lg:text-md leading-[1.5] color-gra mt-6">
             But somehow, Mee is my favorite note ^^
