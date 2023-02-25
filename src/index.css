@@ -28,7 +28,7 @@
   --main-linear: linear-gradient(92.98deg, #FFB6CC -36.92%, #FF5300 82.85%);
 }
 html {
-  background-color: #EFEFEF;
+  background-color: #ffffff;
 }
 .color-org {
   color: var(--main-org);

@@ -12,10 +12,10 @@ function App() {
         <img
           src="./img/logo.png"
           alt=""
-          className=" max-h-[50px] lg:max-h-[100px]"
+          className=" max-h-[90px] lg:max-h-[100px]"
         />
         <div className="text-container lg:max-w-[60%]">
-          <h1 className="title font-heading text-[48px] lg:text-[7vw] leading-[1.5] my-4">
+          <h1 className="title font-heading text-[48px] lg:text-[7vw] leading-[1.5] mt-4 mb-8">
             DoRe<span className="color-org ">Mee</span>
           </h1>
           <div className="soundcloud-embed mt-6 mb-6">
@@ -25,13 +25,13 @@ function App() {
               scrolling="no"
               frameborder="no"
               allow="autoplay"
-              src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1454076202&color=%23ff5500&inverse=false&auto_play=true&show_user=true"
+              src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1455626986&color=%23ff5500&inverse=false&auto_play=true&show_user=true"
             ></iframe>
             <p className="pt-4 text-[11px] lg:text-xs italic color-gra opacity-60">
               Hay hơn khi thưởng thức cùng tai nghe hoặc loa có bass
             </p>
           </div>
-          <p className="font-para text-[12px] lg:text-base lg:text-md leading-[1.5] color-gra mt-6">
+          <p className="font-para text-[12px] lg:text-base lg:text-md leading-[1.5] color-gra mt-10">
             Thiên nhiên có bảy nốt nhạc thì Mee là nốt đáng sợ nhất, vì Mee
             quyết định màu sắc của harmony. Kể cả khi giữ nguyên tất cả các
             thành tố khác, chỉ cần chuyển Mee trưởng sang giáng là bài hát có
@@ -69,7 +69,7 @@ function App() {
 
         {/* Guitar */}
         <svg
-          className="w-[100vw] lg:w-[50vw] absolute bottom-[0px] lg:bottom-0 right-0"
+          className="w-[100vw] lg:w-[50vw] absolute bottom-[10%] lg:bottom-0 right-0"
           viewBox="0 0 1087 439"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
