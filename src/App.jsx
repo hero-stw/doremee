@@ -15,10 +15,10 @@ function App() {
           className=" max-h-[90px] lg:max-h-[100px]"
         />
         <div className="text-container lg:max-w-[60%]">
-          <h1 className="title font-heading text-[40px] lg:text-[7vw] leading-[1.5] mt-4 mb-0">
+          <h1 className="title font-heading text-[40px] lg:text-[7vw] leading-[1.5] mb-0">
             DoRe<span className="color-org ">Mee</span>
           </h1>
-          <div className="soundcloud-embed mt-6 mb-6">
+          <div className="soundcloud-embed mt-4 mb-4">
             <iframe
               width="100%"
               height="20"
