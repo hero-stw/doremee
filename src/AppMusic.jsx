@@ -76,50 +76,50 @@ function App() {
         {/* bird */}
         <Animated
           animationIn="fadeInUp"
-          className="w-[50px] absolute top-[18px] right-[18%] hidden lg:block"
+          className="w-[18px] lg:w-[50px] absolute top-[10px] lg:top-[18px] right-[25%] lg:right-[18%]"
         >
           <img
-            className="w-[10px] right-[18px] top-[30%] absolute animate__fadeIn animate__animated animate__infinite animate__slow"
+            className="w-[5px] lg:w-[10px] right-[6px] lg:right-[18px] top-[33%] lg:top-[30%] absolute animate__fadeIn animate__animated animate__infinite animate__slow"
             src="./img/left_wing.png"
             alt=""
           />
           <img
-            className="w-[50px] animate__animated animate__tada animate__infinite animate__slow"
+            className="w-[18px] lg:w-[50px] animate__animated animate__tada animate__infinite animate__slow"
             src="./img/black_body.png"
             alt=""
           />
           <img
-            className="w-[20px] right-[-15%] top-[50%] absolute animate__fadeIn animate__animated  animate__infinite animate__slow"
+            className="w-[8px] lg:w-[20px] right-[-15%] top-[50%] absolute animate__fadeIn animate__animated  animate__infinite animate__slow"
             src="./img/right_wing.png"
             alt=""
           />
         </Animated>
         <Animated
           animationIn="fadeInUp"
-          className="w-[40px] absolute top-[6%] right-[12%] hidden lg:block"
+          className="w-[18px] lg:w-[40px] absolute top-[2%] lg:top-[6%] right-[18%] lg:right-[13%] "
         >
           <img
-            className="w-[40px] animate__animated absolute animate__fadeInTopRight animate__infinite animate__slow"
+            className="w-[18px] lg:w-[40px] animate__animated absolute animate__fadeInTopRight animate__infinite animate__slow"
             src="./img/green_bird.png"
             alt=""
           />
         </Animated>
         <Animated
           animationIn="fadeInUp"
-          className="w-[26px] absolute top-[9.5%] right-[8%] hidden lg:block"
+          className="w-[10px] lg:w-[26px] absolute top-[3%] lg:top-[9.5%] right-[12%] lg:right-[8%]"
         >
           <img
-            className="w-[26px] animate__animated animate__tada animate__infinite animate__slow"
+            className="w-[10px] lg:w-[26px] animate__animated animate__tada animate__infinite animate__slow"
             src="./img/white_bird.png"
             alt=""
           />
         </Animated>
         <Animated
           animationIn="fadeInUp"
-          className="w-[30px] absolute top-[6%] right-[3%] hidden lg:block"
+          className="w-[12px] lg:w-[30px] absolute top-[2%] lg:top-[6%] right-[5%] lg:right-[3%] "
         >
           <img
-            className="w-[30px] animate__animated animate__fadeInTopRight animate__infinite animate__slow"
+            className="w-[12px] lg:w-[30px] animate__animated animate__fadeInTopRight animate__infinite animate__slow"
             src="./img/pink_bird.png"
             alt=""
           />

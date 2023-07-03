@@ -7,134 +7,120 @@ import "animate.css";
 function App() {
   const [count, setCount] = useState(0);
   return (
-    <div className="h-screen w-screen overflow-x-hidden relative">
+    <div className="h-screen w-sc reen overflow-x-hidden relative">
       <div className="container mx-auto px-5 lg:px-0 pt-6 lg:py-7 lg:mb-auto">
-        <img
-          src="./img/logo.png"
-          alt=""
-          className=" max-h-[90px] lg:max-h-[100px]"
-        />
         <div className="text-container lg:max-w-[60%]">
-          <h1 className="title font-heading text-[40px] lg:text-[7vw] leading-[1.5] mb-0">
-            DoRe<span className="color-org ">Mee</span>
+          <h1 className="title font-merriweather text-[40px] lg:text-[6vw] leading-[1.5] lg:w-full w-[50%] mb-0">
+            Dances of the Hanging birds
           </h1>
-          <div className="soundcloud-embed mt-4 mb-4">
+          <div className="soundcloud-embed mt-4 mb-4 font-inter">
             <iframe
               width="100%"
               height="20"
               scrolling="no"
               frameborder="no"
               allow="autoplay"
-              src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1455626986&color=%23ff5500&inverse=false&auto_play=true&show_user=true"
+              src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1554918718&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
             ></iframe>
-            <p className="pt-4 text-[11px] lg:text-xs italic color-gra opacity-60">
-              Hay hơn khi thưởng thức cùng tai nghe hoặc loa có bass
+            <p className="pt-4 text-[11px] lg:text-xs color-gra opacity-60 font-inter">
+              Better to enjoy with headphones or speakers with bass
             </p>
           </div>
-          <p className="font-para text-[12px] lg:text-base lg:text-md leading-[1.5] color-gra mt-6">
-            Thiên nhiên có bảy nốt nhạc thì Mee là nốt ... đáng sợ nhất, vì Mee
-            quyết định màu sắc của harmony. Dù cho giữ nguyên tất cả các thành
-            tố khác, chỉ cần đổi Mee trưởng sang giáng là hoà âm có nét buồn
-            ngay. Đã thế, nốt Mee cũng rất ... khó lường. Mee dường như có thể
-            xuất hiện và toả sáng ở rất nhiều hợp âm khác nhau mà không theo một
-            quy luật nào.
+          <p className="font-patrick text-[12px] lg:text-base lg:text-md leading-[1.5] color-gra mt-6">
+            Ngày xửa ngày xưa, ở một vương quốc nọ có nàng công chúa Chin Xù vừa
+            xinh đẹp tuyệt trần lại còn tải giỏi xuất chúng. Vua cha ấy thế giao
+            luôn ngân khố cho quản lý. Vương quốc ngày ngày tháng tháng sung túc
+            thanh bình lắm, chỉ trừ mỗi dịp giao mùa lại có mụ phù thủy từ khu
+            rừng Xỉn Ga Bo bay đến quấy phá cướp bóc.
           </p>
-          <p className="font-para text-[12px] lg:text-base lg:text-md leading-[1.5] color-gra mt-6">
-            But somehow, Mee is my favorite note ^^
+          <p className="font-patrick text-[12px] lg:text-base lg:text-md leading-[1.5] color-gra mt-6">
+            "TA CẦN TIỀN! TA CẦN THÊM TIỀN ...." mụ hét.
           </p>
-          <p className="font-para text-[12px] lg:text-base lg:text-md leading-[1.5] color-gra mt-6">
-            Đây là một track nhạc được lấy cảm hứng và sử dụng rất nhiều nốt{" "}
-            <span className="color-org font-bold">Mee</span>.
+          <p className="font-patrick text-[12px] lg:text-base lg:text-md leading-[1.5] color-gra mt-6">
+            Chin Xù thương bần dân chúng lắm, nên cố tìm kiếm phân bổ vàng bạc
+            khắp nơi trong vương quốc để mụ phù thủy không cướp bóc tùy tiện.
+            Mỗi lần thế, mụ lại treo Chin Xù lên một sợi dây phép thuật rồi hét:
+          </p>
+          <p className="font-patrick text-[12px] lg:text-base lg:text-md leading-[1.5] color-gra mt-6">
+            "TREO Ở ĐÓ! TREO Ở ĐÓ!"
+          </p>
+          <p className="font-patrick text-[12px] lg:text-base lg:text-md leading-[1.5] color-gra mt-6">
+            Vũ điệu của bầy chim này được một bác nông dân ghi chép lại và tương
+            truyền khắp vương quốc.
           </p>
         </div>
-        {/* Jack */}
-        <svg
-          className="right-[-14%] lg:right-[0%] top-[-10%] lg:top-[-10%] absolute w-[70vw] lg:w-auto"
-          width="553"
-          height="283"
-          viewBox="0 0 553 283"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            className="path"
-            d="M2 44.1043C25.1168 19.1541 57.9587 3.09189 92.1158 2.05562C114.236 1.37806 136.994 6.91812 156.524 17.2011C178.923 28.9987 192.993 46.7349 200.805 70.6887C208.776 95.2403 213.399 133.264 243.651 140.079C272.228 146.496 308.976 112.777 294.627 83.6421C290.004 74.2359 278.605 72.7612 269.199 74.6345C244.806 79.5368 224.838 99.5847 219.976 123.937C217.903 134.3 218.7 146.934 227.03 154.507C235.121 161.881 247.716 161.96 258.039 158.333C279.521 150.84 297.776 136.452 315.472 122.542C324.52 115.408 332.85 108.672 343.451 104.009C368.96 92.7294 396.939 88.7039 424.639 89.1423C460.51 89.7401 506.864 89.1024 531.455 119.951C541.977 133.144 547.557 149.804 549.311 166.624C552.579 198.19 547.637 235.257 516.987 251.956C511.049 255.185 503.994 257.417 497.537 255.344C470.594 246.656 497.856 210.824 517.705 211.661C529.502 212.18 540.423 219.832 546.082 230.155C558.199 252.275 547.039 275.273 522.328 279.816C491.519 285.476 473.743 260.167 452.38 243.308C427.429 223.579 395.345 221.506 365.532 229.597C350.426 233.702 333.527 248.011 344.647 264.79C357.082 283.523 372.188 257.297 371.351 244.663C370.634 233.662 364.257 224.615 353.734 220.988C346.999 218.636 339.665 218.557 332.571 219.194C320.414 220.231 308.457 223.3 297.258 228.122C281.195 235.017 270.155 247.493 251.423 244.065C243.93 242.71 220.135 234.898 215.91 244.902L197.616 245.978L197.457 249.087L215.631 250.322C215.631 250.322 238.27 259.051 248.991 254.587C259.673 250.163 264.496 247.333 264.496 247.333"
-            stroke="black"
-            strokeWidth="2"
-            strokeMiterlimit="10"
-            strokeLinecap="round"
-            strokeLinejoin="round"
+        {/* princess */}
+        <div className="right-[-3.5%] top-[0] absolute w-[40vw] lg:w-[30vw]">
+          <img
+            src="./img/tree.png"
+            alt=""
+            className="max-h-[185px] lg:max-h-[590px] w-full"
           />
-        </svg>
+        </div>
+        <Animated
+          animationIn="fadeInUp"
+          className=" w-[35vw] lg:w-[22vw] right-[-2%] top-[25px] lg:top-[75px] absolute"
+        >
+          <img
+            className=" w-[35vw] lg:w-[22vw] animate__animated animate__swing animate__infinite animate__slow"
+            src="./img/princess.png"
+            alt=""
+          />
+        </Animated>
 
-        {/* Guitar */}
-        <svg
-          className="w-[100vw] lg:w-[50vw] absolute bottom-[15%] lg:bottom-0 right-0"
-          viewBox="0 0 1087 439"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            className="path"
-            d="M2 424.634C2 424.634 49.5723 384.013 103.904 405.599C158.236 427.185 188.335 445.902 219.901 418.226C219.901 418.226 235.366 410.924 226.629 380.888C219.136 355.221 217.351 327.162 214.29 300.698C210.91 271.651 200.133 231.093 209.156 202.875C211.069 196.881 214.545 190.599 220.571 188.782C235.557 184.286 244.58 197.231 241.519 209.698C238.331 222.835 228.638 234.951 220.539 245.378C210.145 258.705 198.826 271.97 186.709 283.671C174.338 295.628 161.329 306.15 153.166 321.71C139.807 347.218 147.81 373.619 167.578 392.909C167.578 392.909 205.266 424.316 249.267 389.848C293.269 355.38 244.899 303.695 232.177 303.727C232.177 303.727 211.516 295.341 184.924 313.005C158.332 330.67 163.625 370.143 187.538 380.92C211.452 391.697 250.32 371.227 244.485 347.122C238.65 323.017 214.003 308.956 187.538 338.258C187.538 338.258 173.413 371.929 212.377 377.636C235.111 380.952 260.14 375.755 280.961 387.68C290.909 393.387 298.498 402.347 307.011 410.031C318.203 420.139 330.255 424.858 345.273 425.049C351.65 425.145 373.364 427.95 376.998 420.362C379.9 414.336 375.117 407.257 364.595 413.73C354.073 420.202 348.111 428.907 370.303 428.556C392.494 428.174 388.413 399.19 369.091 404.132C349.769 409.075 327.577 429.194 363.607 435.73C399.637 442.235 392.112 384.236 392.112 384.236L389.657 312.24C389.657 312.24 439.748 317.31 479.03 286.955L476.575 381.781C476.575 381.781 472.494 398.266 454.798 400.912C437.101 403.559 445.423 375.277 458.145 373.427C470.868 371.61 479.859 376.68 462.131 393.579C462.131 393.579 449.282 401.709 449.09 393.77C448.899 385.831 462.131 377.7 462.131 377.7C462.131 377.7 470.836 375.181 466.117 385.544C461.43 395.874 450.366 390.836 458.879 376.743C465.256 366.189 488.564 367.943 498.735 367.975C524.53 368.103 556.032 371.195 578.415 385.384C586.578 390.55 600.703 415.611 612.277 410.318C620.025 406.811 613.489 402.124 584.187 399.19C551.855 395.938 549.241 341.096 557.403 319.127C562.6 305.13 572.644 300.124 582.784 290.909C587.853 286.318 603.477 268.271 596.303 260.587C590.5 254.369 576.662 264.572 601.086 274.935C625.509 285.329 638.136 263.137 638.136 263.137C638.136 263.137 655.832 218.148 623.086 214.098C623.086 214.098 606.41 216.33 636.127 229.371C636.127 229.371 658.733 238.937 655.449 205.139C652.197 171.341 677.418 145.099 702.671 149.563C712.236 151.253 722.184 151.221 729.103 143.441C736.979 134.577 742.655 122.812 749.669 113.183C759.298 99.9823 767.652 85.0921 775.209 70.6482C779.832 61.8161 781.969 40.6764 769.215 36.5951C758.438 33.1197 752.124 45.8417 782.447 47.436C782.447 47.436 793.033 39.2416 782.447 21.5454C771.861 3.84932 760.67 37.4241 782.256 31.7167C803.842 26.0093 796.253 18.899 794.021 9.52484C791.821 0.150675 784.87 9.97123 792.299 16.9859C799.729 24.0006 810.538 2 810.538 2L823.291 6.68708C823.291 6.68708 809.517 20.3019 816.659 24.6064C823.802 28.9109 840.605 27.4442 823.738 20.3657C823.738 20.3657 803.81 23.5861 813.375 36.5951C822.941 49.6042 833.622 49.9549 833.622 49.9549C833.622 49.9549 835.121 38.9227 824.567 39.8474C814.013 40.772 803.395 45.9374 804.607 53.0796C805.819 60.2218 817.265 75.3991 825.587 71.1584C833.909 66.9177 808.337 50.1143 797.879 60.9552C787.389 71.8598 781.299 88.1849 775.018 101.672C763.316 126.861 752.443 152.465 741.283 177.909L682.966 290.718C682.966 290.718 679.459 300.411 685.039 303.631C690.65 306.852 687.557 281.854 697.314 288.964C707.071 296.075 683.349 318.394 685.134 329.681C686.856 340.395 695.752 350.885 705.062 338.577C705.796 337.621 706.401 336.536 706.433 335.357C706.529 332.742 703.851 330.797 701.236 330.319C686.728 327.704 676.685 337.238 663.963 341.861C640.432 350.375 616.135 324.771 614.7 302.42C614.7 302.42 617.06 287.019 624.489 291.228C621.715 295.66 622.13 304.428 628.73 298.721C640.176 288.837 649.71 276.529 659.722 265.21C659.722 265.21 683.444 258.642 666.768 273.914C666.768 273.914 658 278.633 659.722 270.949C661.444 263.265 709.494 180.332 709.494 180.332L723.173 158.555C742.941 164.964 760.414 175.773 767.652 196.339C772.021 208.678 769.087 220.89 764.145 232.528C749.956 265.848 743.898 266.804 747.342 280.26C750.785 293.683 756.524 283.926 754.261 273.946C751.391 261.192 736.533 258.833 730.028 268.558C719.729 283.958 713.799 303.089 713.926 321.614C713.958 324.962 714.118 328.533 716.126 331.212C718.613 334.528 723.141 335.452 727.286 335.739C729.167 335.867 731.24 335.835 732.706 334.623C735.544 332.296 733.663 327.226 730.283 325.791C712.747 318.33 712.364 340.777 712.077 352.128C711.407 380.346 700.471 403.718 677.546 420.362C666.832 428.142 653.728 431.936 641.197 426.069C612.755 412.773 645.565 407.417 656.215 416.695C669.511 428.237 688.61 432.829 705.54 435.698C726.361 439.206 743.898 431.713 760.574 419.437C777.154 407.257 792.65 394.152 810.697 384.173C810.697 384.173 845.228 366.062 844.718 358.123C844.208 350.183 821.091 346.708 811.717 366.158C804.384 381.399 832.092 374.384 837.959 371.769C852.753 365.169 857.121 347.76 838.66 342.435C811.558 334.623 789.462 367.242 803.395 379.645C819.497 393.961 846.153 381.494 854.284 364.372C863.753 344.412 856.005 228.638 856.005 228.638C856.005 228.638 864.742 252.807 871.725 253.923C878.707 255.039 892.769 265.72 893.98 273.978C895.192 282.236 872.362 327.8 900.389 327.481C928.416 327.162 955.869 322.22 967.794 336.058C979.719 349.896 996.076 377.668 996.076 377.668C996.076 377.668 1029.71 436.751 1084.75 412.55"
-            stroke="black"
-            strokeWidth="3"
-            strokeMiterlimit="10"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-        </svg>
+        {/* village */}
+        <div className="w-[35vw] lg:w-[32vw] absolute bottom-0 right-0">
+          <img src="./img/village.png" alt="" className="w-full" />
+        </div>
 
-        {/* Stars */}
+        {/* bird */}
         <Animated
           animationIn="fadeInUp"
-          className="w-6 absolute bottom-[18%] right-[2%] hidden lg:block"
+          className="w-[18px] lg:w-[50px] absolute top-[10px] lg:top-[18px] right-[25%] lg:right-[18%]"
         >
           <img
-            className="w-6 animate__animated animate__tada animate__infinite animate__slow"
-            src="./img/star.png"
+            className="w-[5px] lg:w-[10px] right-[6px] lg:right-[18px] top-[33%] lg:top-[30%] absolute animate__fadeIn animate__animated animate__infinite animate__slow"
+            src="./img/left_wing.png"
+            alt=""
+          />
+          <img
+            className="w-[18px] lg:w-[50px] animate__animated animate__tada animate__infinite animate__slow"
+            src="./img/black_body.png"
+            alt=""
+          />
+          <img
+            className="w-[8px] lg:w-[20px] right-[-15%] top-[50%] absolute animate__fadeIn animate__animated  animate__infinite animate__slow"
+            src="./img/right_wing.png"
             alt=""
           />
         </Animated>
         <Animated
           animationIn="fadeInUp"
-          className="w-6 absolute top-[30%] right-[10%] hidden lg:block"
+          className="w-[18px] lg:w-[40px] absolute top-[2%] lg:top-[6%] right-[18%] lg:right-[13%] "
         >
           <img
-            className="w-6 animate__animated animate__tada animate__infinite animate__slow"
-            src="./img/star.png"
-            alt=""
-          />
-        </Animated>
-        {/* Note */}
-        <Animated
-          animationIn="fadeInUp"
-          className=" absolute top-[40%] right-[15%] hidden lg:block"
-        >
-          <img
-            className="w-8 animate__animated animate__fadeInBottomRight animate__infinite animate__slower"
-            src="./img/note.png"
+            className="w-[18px] lg:w-[40px] animate__animated absolute animate__fadeInTopRight animate__infinite animate__slow"
+            src="./img/green_bird.png"
             alt=""
           />
         </Animated>
         <Animated
           animationIn="fadeInUp"
-          className=" absolute bottom-[25%] right-[8%] hidden lg:block"
+          className="w-[10px] lg:w-[26px] absolute top-[3%] lg:top-[9.5%] right-[12%] lg:right-[8%]"
         >
           <img
-            className="w-8 animate__animated animate__fadeInBottomLeft animate__infinite animate__slower animate__delay-3s"
-            src="./img/note.png"
+            className="w-[10px] lg:w-[26px] animate__animated animate__tada animate__infinite animate__slow"
+            src="./img/white_bird.png"
             alt=""
           />
         </Animated>
-        {/* Big Note */}
         <Animated
           animationIn="fadeInUp"
-          className=" absolute bottom-[40%] right-[8%] hidden lg:block"
+          className="w-[12px] lg:w-[30px] absolute top-[2%] lg:top-[6%] right-[5%] lg:right-[3%] "
         >
           <img
-            className="w-12 animate__animated animate__pulse animate__infinite animate__slow"
-            src="./img/music-symbol.png"
+            className="w-[12px] lg:w-[30px] animate__animated animate__fadeInTopRight animate__infinite animate__slow"
+            src="./img/pink_bird.png"
             alt=""
           />
         </Animated>
