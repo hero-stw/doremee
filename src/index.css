@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;700&family=Merienda:wght@400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;700&family=Merienda:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Merriweather:wght@700&family=Patrick+Hand&display=swap");
 @font-face {
   font-family: "poppins";
   src: url("/fonts/SVN-Poppins-Regular.ttf");
@@ -20,12 +21,15 @@
 @tailwind utilities;
 
 :root {
-  --font-heading: 'Merienda', cursive;
-  --font-para: 'poppins', 'Manrope';
+  --font-heading: "Merienda", cursive;
+  --font-para: "poppins", "Manrope";
+  --font-merriweather: "Merriweather", serif;
+  --font-inter: "Inter", sans-serif;
+  --font-patrick: "Patrick Hand", cursive;
   --main-black: #000000;
-  --main-org: #FF5300;
+  --main-org: #ff5300;
   --main-gray: #475467;
-  --main-linear: linear-gradient(92.98deg, #FFB6CC -36.92%, #FF5300 82.85%);
+  --main-linear: linear-gradient(92.98deg, #ffb6cc -36.92%, #ff5300 82.85%);
 }
 html {
   background-color: #ffffff;
@@ -42,6 +46,15 @@ html {
 .font-para {
   font-family: var(--font-para);
 }
+.font-inter {
+  font-family: var(--font-inter);
+}
+.font-merriweather {
+  font-family: var(--font-merriweather);
+}
+.font-patrick {
+  font-family: var(--font-patrick);
+}
 .path {
   stroke-dasharray: 0 1000;
   animation: dash 3s linear 1;
@@ -54,7 +67,7 @@ html {
                                  1000-length gap */
   }
   to {
-    stroke-dasharray: 1000 0;/* 1000-length stroke, 
+    stroke-dasharray: 1000 0; /* 1000-length stroke, 
                                  zero-length gap */
   }
 }
